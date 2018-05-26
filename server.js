@@ -26,9 +26,9 @@ app.use(function(req, resp, next){
 });
 
 // maintaince mode
-app.use((req, resp, next) => {
-  resp.render('maintaince.hbs');
-});
+// app.use((req, resp, next) => {
+//   resp.render('maintaince.hbs');
+// });
 
 app.get('/', (req, resp) => {
   resp.render('main.hbs', {
